@@ -1,7 +1,5 @@
-
-
-.certainh1{
-	font-size:40px;
+.certainh1 {
+	font-size: 40px;
 }
 
 
@@ -14,15 +12,70 @@
 .blacktd {
 	width: 33.3333%;
 	background-color: black;
-	color:white;
+	color: white;
 }
 
+.blacktr {
+	width: 100%;
+	background-color: black;
+	color: white;
+	border: none;
+}
 
+.no bound td {
+	width: 100%;
+	border: none;
+}
 
+.exp row {
+	font-size: clamp(2rem, 4vw, 3.25rem);
+	font-weight: 750;
+	line-height: 1.1;
+	letter-spacing: -0.02em;
+	color: #0f172a;
+	margin: 0 0 0.5rem 0;
+}
 
+.silver-text {
+	font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+	font-size: 45px;
+	font-weight: 500;
+	color: #8e8e8e;
+}
 
+.silver-text-ul {
+	font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	color: #8e8e8e;
+}
 
+.job-exp-text {
+	font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+	font-size: 45px;
+	font-weight: 500;
+	color: white;
+}
 
+.arrow-container {
+  display: inline-flex;
+  align-items: center;
+  font-size: 45px;
+  color: #7a7a7a;
+}
 
+.arrow-icon {
+  width: 36px;
+  height: 36px;
+  fill: currentColor;
+}
 
+.title-row {
+  display: flex;
+  align-items: center; 
+  gap: 12px;        
+}
 
+.silver-text {
+  margin: 0;             
+}
